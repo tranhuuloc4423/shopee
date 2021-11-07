@@ -95,7 +95,7 @@
 }
 
 .header__navbar-user-item a:hover {
-    color: #26aa99;
+    color: var(--primary-color);
     background-color: #fafafa;
 }
 
@@ -286,10 +286,9 @@
 
 .header__notify-head {
     color: #999;
-    margin: 12px 12px 0;
+    margin: 12px 12px 8px;
     font-size: 1.4rem;
     font-weight: 400;
-    border-bottom: 1px solid #888;
     user-select: none;
 }
 
@@ -306,7 +305,7 @@
 .header__notify-content {
     display: flex;
     text-decoration: none;
-    padding:0 12px 0 12px;
+    padding: 8px;
 }
 
 .header__notify-content:hover,
@@ -801,7 +800,7 @@ i.header__cart-icon-chat {
     position: absolute;
     list-style-type: none;
     right: 0;
-    top: 136%;
+    top: 34px;
     box-shadow: 0 1px 3px #ccc;
     padding-left: 0;
     border-radius: 3px;
@@ -867,6 +866,7 @@ i.header__cart-icon-chat {
     position: absolute;
     top: calc(100% + 5px);
     background-color: var(--white-color);
+    padding: 8px 16px;
     left: 0;
     width: calc(100% - 16px);
     box-shadow: 0 1px 3px rgb(221, 221, 221);
@@ -880,7 +880,7 @@ i.header__cart-icon-chat {
     font-size: 1.5rem;
     font-weight: 400;
     color: #999;
-    margin: 8px 16px;
+    margin: 8px 0;
 }
 
 .header__search-history-list {
@@ -891,7 +891,6 @@ i.header__cart-icon-chat {
 
 .header__search-history-item {
     height: 38px;
-    padding: 0 12px;
 }
 
 .header__search-history-item:hover {
@@ -1194,7 +1193,7 @@ i.header__cart-icon-chat {
     color: var(--text-color);
     line-height: 1.8rem;
     height: 3.6rem;
-    margin: 10px 10px 4px;
+    margin: 10px 10px 0;
     overflow: hidden;
     display: block;
     display: -webkit-box;
@@ -1208,7 +1207,7 @@ i.header__cart-icon-chat {
     align-items: baseline;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 0 10px 0;
+    padding: 6px 10px 0;
 }
 
 .home-product-item__price-old {
@@ -1370,6 +1369,7 @@ i.home-product-item__like-icon-fill {
     font-size: 1.4rem;
     text-transform: uppercase;
     color: #666;
+    margin-bottom: 6px;
 }
 
 .footer-list {
@@ -1378,16 +1378,14 @@ i.home-product-item__like-icon-fill {
 }
 
 .footer-item {
-    margin: 6px 4px;
+    margin: 12px 0;
 }
 
 .footer-item__link {
     text-decoration: none;
     font-size: 1.2rem;
     color: #888;
-    display: block;
     padding: 4px 0;
-    display: flex;
     align-items: center;
 }
 
@@ -1412,8 +1410,8 @@ i.home-product-item__like-icon-fill {
 
 
 .footer-item__img {
-    width: 55px;
-    height: 30px;
+    width: 50px;
+    height: 25px;
     flex: 1;
 }
 
@@ -1432,7 +1430,7 @@ i.home-product-item__like-icon-fill {
 }
 
 .footer__download-img {
-    margin-left: 16px;
+    margin-left: 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
